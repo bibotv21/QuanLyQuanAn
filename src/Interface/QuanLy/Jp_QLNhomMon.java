@@ -226,7 +226,7 @@ public class Jp_QLNhomMon extends javax.swing.JPanel {
     private void bntSuaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bntSuaActionPerformed
         int select=tbNhomMon.getSelectedRow();
         if(select<0){
-            JOptionPane.showMessageDialog(null, "Bạn chưa chọn nhóm nào !");
+            JOptionPane.showMessageDialog(null, "Bạn vẫn chưa chọn nhóm nào, ấn để chọn !");
         }else{
             String manhom = (String) tbNhomMon.getValueAt(select, 0);
             
