@@ -137,7 +137,7 @@ public class DLQl_Them_Ban extends javax.swing.JDialog {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         if(txtTenBan.getText().isEmpty()){
-            JOptionPane.showMessageDialog(null, "Tên bàn không được để trống !");
+            JOptionPane.showMessageDialog(null, "Tên bàn không được để trống, hãy điền thông tin vào !");
             return;
         }
         Ban b = new Ban();
